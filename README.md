@@ -1,4 +1,4 @@
-# 🧠 Build a CNN From Scratch in C++ 98.19 accuracy
+# 🧠 Build a CNN From Scratch in C++ 98.19% accuracy
 
 > A complete Convolutional Neural Network implemented entirely from scratch in modern C++.
 
