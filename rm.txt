@@ -1,0 +1,26 @@
+mnist-CNN-from-scratch/
+├── src/
+│   ├── Tensor.hpp               → 4D tensor (NCHW) with operator()
+│   ├── ImageLoader.hpp          → Full grayscale JPEG decoder from scratch
+│   ├── Dataset.hpp              → Load trainingSet/ and testSet/ folders
+│   ├── Loss.hpp                 → CrossEntropyLoss (with softmax)
+│   ├── layers/
+│   │   ├── Activations.hpp      → ReLU, Softmax (numerically stable)
+│   │   ├── Conv2D.hpp           → im2col + full backward
+│   │   ├── Dense.hpp            → Fully connected
+│   │   ├── Dropout.hpp     
+│   │   ├── Flatten.hpp
+│   │   ├── Layer.hpp            → Virtual base
+│   │   └── MaxPool.hpp          → With argmax mask
+│   ├── Optimizer.hpp            → Adam (m, v, bias correction)
+│   ├── Log.hpp         
+│   ├── Utils.hpp          
+│   └── Model.hpp                → Sequential: add(), forward(), backward(), update()
+│                                   Training + evaluation + logging
+├── dataset/
+│   ├── trainingSet/             → 29,600 JPGs (0–9 folders)
+│   └── testSet/                 → 7,400 JPGs
+├── main.cpp
+├── model000.model
+└── log..txt                 ← You are reading this
+
