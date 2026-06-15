@@ -37,36 +37,6 @@ Instead of using a framework, we build one.
 Every major component is implemented manually in C++ so you can understand exactly what happens behind the scenes.
 
 ---
-## 🎯 Performance
-
-This project is not intended to be a state-of-the-art benchmark model.
-
-The goal is to understand and implement the core mechanics of deep learning from the ground up.
-
-Despite being built entirely from scratch in C++ and trained on a reduced dataset, the network achieves approximately **98.19% test accuracy**.
-
-### Training Configuration
-
-| Metric | Value |
-|----------|----------|
-| 🏋️ Training Images | 29,600 |
-| 🧪 Test Images | 7,400 |
-| 📦 Total Images | 37,000 |
-| 🔄 Data Augmentation | None |
-| 🖥️ Hardware | CPU |
-| 🎯 Test Accuracy | 98.19% |
-
-This result was achieved without:
-
-- ❌ TensorFlow
-- ❌ PyTorch
-- ❌ OpenCV
-- ❌ Machine Learning Frameworks
-- ❌ Data Augmentation
-- ❌ GPU Training
-
-The accuracy serves as a practical validation that the tensor system, convolution layers, backpropagation, optimizer, and training pipeline are functioning correctly.
----
 
 ## ✨ Features
 
