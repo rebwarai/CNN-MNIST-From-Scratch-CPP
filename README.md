@@ -130,7 +130,7 @@ mnist-CNN-from-scratch/
 
 ## 🎥 YouTube Series
 
-This repository accompanies my YouTube series: [link]
+This repository accompanies my YouTube series: https://youtu.be/tKVpnrcKqXs
 
 ### 🎬 Build a CNN From Scratch in C++
 
@@ -147,7 +147,7 @@ In the series we build and explain every component step-by-step:
 
 📺 Playlist:
 
-**[PLACEHOLDER_FOR_PLAYLIST_LINK]**
+Build a CNN From Scratch in C++: https://www.youtube.com/playlist?list=PLgt-v47ixLfJOk-1QkWELC_M74Iu_Q-OT
 
 ---
 
