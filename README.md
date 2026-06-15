@@ -2,12 +2,12 @@
 
 > A complete Convolutional Neural Network implemented entirely from scratch in modern C++.
 
-❌ No data augmentation
-❌ No TensorFlow
-❌ No PyTorch
-❌ No OpenCV
-❌ No ML libraries
-❌ No GPU acceleration (CPU only)
+- ❌ No data augmentation
+- ❌ No TensorFlow
+- ❌ No PyTorch
+- ❌ No OpenCV
+- ❌ No ML libraries
+- ❌ No GPU acceleration (CPU only)
 
 ✅ Just C++, mathematics, and a deep understanding of how neural networks actually work.
 
