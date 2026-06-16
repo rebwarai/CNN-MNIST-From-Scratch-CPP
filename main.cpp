@@ -49,7 +49,7 @@ int main() {
         model.summary();
 
         string train_model;
-        string model_name = "model000.model";
+        string model_name = "model0001.model";
         cout << "Do you want to train a new model ? (y/n) :";
         cin >> train_model;
 
@@ -79,7 +79,7 @@ int main() {
             model.load(model_name);
         }
         
-        // model.evaluate(test_dataset);
+        model.evaluate(test_dataset);
 
         model.set_training(false);
         std::string filepath = "dataset/testSet/3/img_6702.jpg";
